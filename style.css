@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#000;
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("img/portada.jpg") center/cover no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.hero-text h1{
+  font-family:'Great Vibes', cursive;
+  font-size:3.2rem;
+}
+
+.mini{
+  letter-spacing:2px;
+  font-size:.9rem;
+}
+
+.info{
+  margin-top:5px;
+}
+
+/* COUNTDOWN */
+#countdown{
+  display:flex;
+  gap:10px;
+  margin-top:25px;
+  justify-content:center;
+}
+
+#countdown div{
+  background:rgba(255,255,255,.1);
+  padding:10px;
+  border-radius:10px;
+  font-size:.8rem;
+}
+
+#countdown span{
+  display:block;
+  font-size:1.3rem;
+  font-weight:600;
+}
+
+/* FRASE */
+.quote{
+  padding:60px 20px;
+  background:#111;
+  font-family:'Playfair Display', serif;
+  font-style:italic;
+}
+
+.quote span{
+  display:block;
+  margin-top:15px;
+  font-size:.85rem;
+  opacity:.7;
+}
+
+/* FOTO */
+.photo{
+  padding:40px 20px;
+}
+
+.photo img{
+  width:90%;
+  max-width:350px;
+  border-radius:15px;
+}
+
+.caption{
+  margin-top:10px;
+  font-family:'Great Vibes';
+  font-size:1.4rem;
+}
+
+/* DRESS */
+.dress{
+  padding:50px 20px;
+}
+
+.dress h2{
+  font-family:'Playfair Display';
+}
+
+.dress .main{
+  font-size:1.4rem;
+  margin:10px 0;
+}
+
+.dress .sub{
+  color:#ff6fae;
+}
+
+/* GALERIA */
+.gallery{
+  padding:30px;
+  background:#111;
+}
+
+.gallery img{
+  width:80%;
+  max-width:300px;
+  border-radius:10px;
+}
+
+/* UBICACIÓN */
+.location{
+  padding:50px 20px;
+}
+
+.map-btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:#ff6fae;
+  color:#000;
+  text-decoration:none;
+  border-radius:25px;
+  font-weight:600;
+}
+
+/* FOOTER */
+footer{
+  padding:25px;
+  background:#000;
+  font-style:italic;
+}
+
+/* RESPONSIVE */
+@media(min-width:768px){
+  .hero-text h1{
+    font-size:4.5rem;
+  }
+}
